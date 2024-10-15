@@ -1,3 +1,5 @@
 print("I'm learning Git merge conflicts")
-nick = input('Please enter your nickname')
-print('Hi, {}!'.format(nick))
+name = input('Please enter your name:')
+lastname = input('Please enter your last name:')
+nick = input('Please enter your nickname:')
+print('Hi, {} {} a.k.a. {}!'.format(name, lastname, nick))
